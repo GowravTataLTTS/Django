@@ -1,0 +1,16 @@
+# First run the create_project.sh by passing the argument as projectname
+as follows
+
+1.bash create_project.sh project_name
+2.bash app_start.sh app_name
+
+In the app created a file named urls.py , location is at admin/calc/urls.py
+
+In the admin/calc/urls.py file, add the URL that is to be routed, note that this URL is inside the APP
+
+Define a function corresponding to the URL in app folder in views.py file
+
+After that include the path in admin/admin/urls.py
+
+Now run the server at bash server_start.sh
+
