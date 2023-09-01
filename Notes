@@ -1,16 +1,3 @@
-# First run the create_project.sh by passing the argument as projectname
-as follows
+# In this a HTML file which is already present is taken and a new HTML file named base.html
 
-1.bash create_project.sh project_name
-2.bash app_start.sh app_name
-
-In the app created a file named urls.py , location is at admin/calc/urls.py
-
-In the admin/calc/urls.py file, add the URL that is to be routed, note that this URL is inside the APP
-
-Define a function corresponding to the URL in app folder in views.py file
-
-After that include the path in admin/admin/urls.py
-
-Now run the server at bash server_start.sh
-
+TO the existing file , a new block is added to render the base template and top of that home.html  will run 
