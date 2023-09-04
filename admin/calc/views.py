@@ -1,8 +1,4 @@
 from django.shortcuts import render
-<<<<<<< HEAD
-
-# Create your views here.
-=======
 from django.http import HttpResponse
 
 
@@ -17,4 +13,6 @@ def add(request):
     val2 = request.POST['num2']
     res = int(val1) + int(val2)
     return render(request, 'result.html', {'result': res})
->>>>>>> addition-of-two-numbers
+
+
+
