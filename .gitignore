@@ -1,0 +1,14 @@
+  che__/
+
+
+.idea/
+.gitignore.swp
+
+#Environments
+.python-version
+.env
+.venv
+env/
+venv/
+
+db.sqlite3
